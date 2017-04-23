@@ -1,0 +1,19 @@
+
+div.container {
+    width: 210px;
+    height: 320px;
+    margin: 0 auto;
+}
+
+div.grid {
+    width: 200px;
+    height: 70px;
+    line-height: 70px; /*文字高度跟元素高度一樣，文字就會上下置中*/
+    margin: 5px auto;
+    box-shadow: 5px 5px 5px #888888; /*方框的陰影*/
+    background-color: yellow;
+    font-size: 20px;
+
+    animation-name: example;
+    animation-duration: 5s;
+}
