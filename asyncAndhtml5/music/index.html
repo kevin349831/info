@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>html5-Final</title>
+        <script type="text/javascript" src="ajax.js"></script>
+        <link rel="stylesheet" href="./music2.css">
+        <script language="JavaScript" src="./music2.js"></script>
+        
+    </head>
+    <body id="body">
+        <div id="halfLeft">
+            <h3 id="music_title">音樂精選</h3>
+            <div id="audioPlay">
+                <div id="player"onclick="player()" value="play"></div>
+                <div id="me">0:00  /  0:00</div>
+                <input id="timeRange" type="range" min="0" max="100" step="1" value="0">
+                <input id="soundRange" type="range" min="0" max="100" step="1" value="50">
+                <div id="musicSound">50%</div>
+                <div id="muted" onclick="mut()"></div>
+            </div>
+            <div id="marquee">
+                <marquee id="marquee" scrollamount="10" behavior="alternate"  direction=right><div id="test" ></div></marquee> 
+            </div>
+            <div id="musicBar"></div>
+            <div id="musicBigList">
+            </div>
+        </div>
+        <div id="halfRight">
+            <div id="showLyric"></div>
+            <div id="lyricCover"></div>
+        </div>
+    </body>
+</html>
