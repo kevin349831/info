@@ -1,0 +1,35 @@
+/*圖片區塊*/
+#divSlide{
+    background-color: yellow;
+    width: 810px;
+    height: 200px;
+    margin-left: 280px;
+}
+/*左邊換面區塊*/
+#divLeftSlide{
+    background-color: black;
+    width: 150px;
+    height: 200px;
+    margin-left: 280px;
+    margin-top: -200px;
+    opacity: 0.5;
+    position: fixed;
+    z-index: 1;
+}
+#divLeftSlide:hover{
+    opacity: 0.8;
+}
+/*右邊換面區塊*/
+#diveRightSlide{
+    background-color: black;
+    width: 150px;
+    height: 200px;
+    margin-left: 940px;
+    margin-top: -200px;
+    opacity: 0.5;
+    position: fixed;
+    z-index: 1; 
+}
+#diveRightSlide:hover{
+    opacity: 0.8;
+}
