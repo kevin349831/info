@@ -1,875 +1,189 @@
 <!DOCTYPE html>
-<html lang="">
-
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
-    <!-- ===========================
-    THEME INFO
-    =========================== -->
-    <meta name="description" content="CVstrap is another Free minimal CV HTML theme by EvenFly built with Bootstrap 3.3.0. and released under CC-3.0 license.">
-    <meta name="keywords" content="curriculum vitae, cv, one page, onepage, bootstrap, responsive, resume, timeline, free cv">
-    <meta name="author" content="Mamun Srizon">
+<!--my App js myApp.js-->
+<script src="myApp.js"></script>
 
-    <!-- ===========================
-    SITE TITLE
-    =========================== -->
-    <title>Haoyu's website</title>
-
-    <!-- ===========================
-    FAVICONS
-    =========================== -->
-    <link rel="icon" href="img/favicon.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-ipad-retina.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-iphone-retina.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-ipad.png" />
-    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-iphone.png" />
-
-    <!-- ===========================
-    STYLESHEETS
-    =========================== -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-
-    <!-- ===========================
-    FONTS & ICONS
-    =========================== -->
-    <link href='//fonts.googleapis.com/css?family=Kristi|Alegreya+Sans:300' rel='stylesheet' type='text/css'>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-
-    <!--[if IE]>
-        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
-
 <body>
-    <div class="container">
-        <!-- ===========================
-        HEADER
-        ============================ -->
-        <div id="header" class="row">
-            <div class="col-sm-2">
-                <img class="propic" src="img/bappy.jpg" alt="">
-            </div>
-            <!-- photo end-->
+<!--page1-->
+<div data-role="page" id="page1">
+	<!--My Panel-->
+	<div data-role="panel" id="myPanel">
+		<h1>Menu</h1>
+    <a href="#page6" class="ui-btn ui-corner-all ui-shadow ui-icon-search ui-btn-icon-left" data-transition="slide">Get Open Data</a>
+    <a href="#page5" class="ui-btn ui-corner-all ui-shadow ui-icon-user ui-btn-icon-left" data-transition="slide">Show Position</a>
+    <a href="#page4" class="ui-btn ui-corner-all ui-shadow ui-icon-star ui-btn-icon-left" data-transition="slide">Show Spots</a>
+    <a href="#page3" class="ui-btn ui-corner-all ui-shadow ui-icon-forward ui-btn-icon-left" data-transition="slide">Directions</a>
+    <a href="#page2" class="ui-btn ui-corner-all ui-shadow ui-icon-gear ui-btn-icon-left" data-transition="pop">Option</a>
+	</div>
+   <!--My Panel End-->
+	<div data-role="header">
+		<a href="#myPanel" class="ui-btn ui-corner-all ui-shadow ui-icon-bars ui-btn-icon-left">more</a>
+		<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-right" data-transition="fade">Home</a>
+		<h1>Home Page</h1>
+	</div>
+
+	<div data-role="main" class="ui-content">
+		<p>🐤🐣🐥</p>
+		<h1>Hello</h1>
+	</div>
+
+  <div data-role="footer">
+		<h1>By Haoyu</h1>
+  </div>
+</div>
+
+<!--page2-->
+<div data-role="page" data-dialog="true" id="page2">
+  <div data-role="header">
+    <h1>About Me!</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>I'm Haoyu</p>
+    <a href="#" class="ui-btn" data-rel="back">Go Back</a>
+    <!--<a href="#page1">Go to Page One</a>-->
+  </div>
+
+  <div data-role="footer">
+    <h1>kevin349831@gmail.com</h1>
+  </div>
+</div>
+
+<!--Demo collapsible page3-->
+<div data-role="page" id="page3">
+	<!--My Panel-->
+	<div data-role="panel" id="myPane3">
+   	<h1>Menu</h1>
+    <a href="#page6" class="ui-btn ui-corner-all ui-shadow ui-icon-search ui-btn-icon-left" data-transition="slide">Get Open Data</a>
+    <a href="#page5" class="ui-btn ui-corner-all ui-shadow ui-icon-user ui-btn-icon-left" data-transition="slide">Show Position</a>
+    <a href="#page4" class="ui-btn ui-corner-all ui-shadow ui-icon-star ui-btn-icon-left" data-transition="slide">Show Spots</a>
+    <a href="#page3" class="ui-btn ui-corner-all ui-shadow ui-icon-forward ui-btn-icon-left" data-transition="slide">Directions</a>
+    <a href="#page2" class="ui-btn ui-corner-all ui-shadow ui-icon-gear ui-btn-icon-left" data-transition="pop">Option</a>
+  </div>
+   <!--My Panel End-->
+  <div data-role="header">
+  	<a href="#myPane3" class="ui-btn ui-corner-all ui-shadow ui-icon-bars ui-btn-icon-left">more</a>
+    <a href="#page1" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-right" data-transition="fade">Home</a>
+    <h1>Demo Directions</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>🐤🐣🐥🐤🐣🐥</p>
+    <div data-role="collapsibleset">
+    </div>
+  </div>
+
+  <div data-role="footer">
+    <h1>By Haoyu</h1>
+  </div>
+</div>
+
+<!--Demo Kaohsiung open data page6-->
+<div data-role="page" id="page6">
+	<!--My Panel-->
+	<div data-role="panel" id="myPane4">
+   	<h1>Menu</h1>
+    <a href="#page6" class="ui-btn ui-corner-all ui-shadow ui-icon-search ui-btn-icon-left" data-transition="slide">Get Open Data</a>
+    <a href="#page5" class="ui-btn ui-corner-all ui-shadow ui-icon-user ui-btn-icon-left" data-transition="slide">Show Position</a>
+    <a href="#page4" class="ui-btn ui-corner-all ui-shadow ui-icon-star ui-btn-icon-left" data-transition="slide">Show Spots</a>
+    <a href="#page3" class="ui-btn ui-corner-all ui-shadow ui-icon-forward ui-btn-icon-left" data-transition="slide">Directions</a>
+    <a href="#page2" class="ui-btn ui-corner-all ui-shadow ui-icon-gear ui-btn-icon-left" data-transition="pop">Option</a>
+  </div>
+   <!--My Panel End-->
+  <div data-role="header">
+  	<a href="#myPane4" class="ui-btn ui-corner-all ui-shadow ui-icon-bars ui-btn-icon-left">more</a>
+    <a href="#page1" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-right" data-transition="fade">Home</a>
+    <h1>Demo Get OpenData</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    	<p id="demo"></p>
+	</div>
+
+  <div data-role="footer">
+    <h1>By Haoyu</h1>
+  </div>
+</div>
+
+<!--Demo  page5-->
+<div data-role="page" id="page5">
+	<!--My Panel-->
+	<div data-role="panel" id="myPane5">
+   	<h1>Menu</h1>
+    <a href="#page6" class="ui-btn ui-corner-all ui-shadow ui-icon-search ui-btn-icon-left" data-transition="slide">Get Open Data</a>
+    <a href="#page5" class="ui-btn ui-corner-all ui-shadow ui-icon-user ui-btn-icon-left" data-transition="slide">Show Position</a>
+    <a href="#page4" class="ui-btn ui-corner-all ui-shadow ui-icon-star ui-btn-icon-left" data-transition="slide">Show Spots</a>
+    <a href="#page3" class="ui-btn ui-corner-all ui-shadow ui-icon-forward ui-btn-icon-left" data-transition="slide">Directions</a>
+    <a href="#page2" class="ui-btn ui-corner-all ui-shadow ui-icon-gear ui-btn-icon-left" data-transition="pop">Option</a>
+  </div>
+   <!--My Panel End-->
+  <div data-role="header">
+  	<a href="#myPane5" class="ui-btn ui-corner-all ui-shadow ui-icon-bars ui-btn-icon-left">more</a>
+    <a href="#page1" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-right" data-transition="fade">Home</a>
+    <h1>Demo Show Position</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    	<p>Show Position</p>
+	</div>
+
+  <div data-role="footer">
+    <h1>By Haoyu</h1>
+  </div>
+</div>
+
+
+<!--Demo  page4-->
+<div data-role="page" id="page4">
+	<!--My Panel-->
+	<div data-role="panel" id="myPane4">
+   	<h1>Menu</h1>
+    <a href="#page6" class="ui-btn ui-corner-all ui-shadow ui-icon-search ui-btn-icon-left" data-transition="slide">Get Open Data</a>
+    <a href="#page5" class="ui-btn ui-corner-all ui-shadow ui-icon-user ui-btn-icon-left" data-transition="slide">Show Position</a>
+    <a href="#page4" class="ui-btn ui-corner-all ui-shadow ui-icon-star ui-btn-icon-left" data-transition="slide">Show Spots</a>
+    <a href="#page3" class="ui-btn ui-corner-all ui-shadow ui-icon-forward ui-btn-icon-left" data-transition="slide">Directions</a>
+    <a href="#page2" class="ui-btn ui-corner-all ui-shadow ui-icon-gear ui-btn-icon-left" data-transition="pop">Option</a>
+  </div>
+   <!--My Panel End-->
+  <div data-role="header">
+  	<a href="#myPane4" class="ui-btn ui-corner-all ui-shadow ui-icon-bars ui-btn-icon-left">more</a>
+    <a href="#page1" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-right" data-transition="fade">Home</a>
+    <h1>Demo Show Position</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    	<p>Page4 for Show Spots</p>
+	</div>
+
+  <div data-role="footer">
+    <h1>By Haoyu</h1>
+  </div>
+</div>
 
-            <div class="col-sm-10">
-                <div class="cv-title">
-                    <div class="row">
-                        <div class="col-sm-7">
-                            <h1>SHI,HAO-YU</h1>
-                        </div>
-                        <div class="col-sm-5 text-right dl-share">
-                            <!-- AddToAny BEGIN -->
-                            <a class="a2a_dd btn btn-default" href=""><span class="fa fa-share "></span> Share</a>
-                            <script type="text/javascript">
-                                var a2a_config = a2a_config || {};
-                                a2a_config.linkname = "Minimal CV by EvenFly";
-                                a2a_config.num_services = 6;
-                                a2a_config.prioritize = ["facebook", "twitter", "google_plus", "linkedin", "pinterest", "email"];
-                            </script>
-                            <script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
-                            <!-- AddToAny END -->
-                            <a class="btn btn-success" href="./index_ch.html"><span class="fa fa-toggle-on"></span> chinese</a>
-                        </div>
-                    </div>
-                    <h2>Programmer</h2>
-                </div><!-- Title end-->
-
-                <!-- ===========================
-                SOCIAL & CONTACT
-                ============================ -->
-                <div class="row">
-                    <div class="col-sm-4">
-                        <ul class="list-unstyled">
-                            <li><a href="#"><span class="social fa fa-home"></span>WebSite</a>
-                            </li>
-                            <li><a href="#"><span class="social fa fa-skype"></span>0928-106864</a>
-                            </li>
-                            <li><a href="https://twitter.com/haoyu1201"><span class="social fa fa-twitter"></span>Twitter</a>
-                            </li>
-                        </ul>
-                    </div><!-- social 1st col end-->
-
-                    <div class="col-sm-4">
-                        <ul class="list-unstyled">
-                            <li><a href="https://www.facebook.com/fvawsonuj"><span class="social fa fa-facebook"></span>Facebook</a>
-                            </li>
-                            <li><a href="kevin349831@gmail.com"><span class="social fa fa-envelope-o"></span>Email</a>
-                            </li>
-                        </ul>
-                    </div><!-- social 2nd col end-->
-
-                    <div class="col-sm-4">
-                        <ul class="list-unstyled">
-                            <li><a href="https://www.instagram.com/s.haoyu/"><span class="social fa fa-instagram"></span>Instagram</a></li>
-                            <li><a href="https://github.com/kevin349831"><span class="social fa fa-github"></span>GitHub</a>
-                            </li>
-                        </ul>
-                    </div><!-- social 3nd col end-->
-                    
-                </div><!-- header social end-->
-            </div><!-- header right end-->
-        </div><!-- header end-->
-
-        <hr class="firsthr">
-
-        <!-- ===========================
-        BODY LEFT PART
-        ============================ -->
-        <div class="col-md-8 mainleft">
-            <div id="statement" class="row mobmid">
-                <div class="col-sm-1">
-                    <span class="secicon fa fa-user"></span>
-                </div><!--icon end-->
-
-                <div class="col-sm-11">
-                    <h3>Introduction </h3>
-                    <p>HI, I come from Taitung, currently studying the National Kaohsiung University of Applied Science and Technology Department of Information Management third grade.</p>
-                    <p>Personal interest is to play, such as: baseball, softball, basketball, volleyball, badminton and other ball.</p>
-                    <p>Learn the language of the program JAVA, HTML, PHP, JavaScript, SQL, Python, C #, ASP.NET and so on ... Professional software with Photoshop, SAP Business one, participation in the Association of music club, computer learning, skills training Team, operating system Windows Xp / Vista / 7/8/10, Linux, Mac Os, Android, IOS, the use of Arduino development of hardware and software related works, can develop MVC architecture web pages, systems and build sites, Library and so on, can also make RWD WebPage pages, can use the grammar software Word, Excel, PowerPoint and other paper software.</p>
-                    <p class="signature">SHI,HAO-YU</p>
-                </div><!--info end-->
-            </div><!--personal statement end-->
-
-            <hr>
-
-            <div id="education" class="row mobmid">
-                <div class="col-sm-1">
-                    <span class="secicon fa fa-graduation-cap"></span>
-                </div><!--icon end-->
-
-                <div class="col-sm-11">
-                    <h3>EDUCATION &amp; LICENSE</h3>
-                    <hr>
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>EDUCATION</h4>
-                        </div>
-                    </div><!--Education & Certification 4 end--> 
-                    
-                    <hr>
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>National Kaohsiung University Applied sciences</h4>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2014-2018</p>
-                        </div>
-                    </div><!--Education & Certification 1 end-->
-                    
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>National Taitung Senior Commercial Vocational School</h4>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2011-2014</p>
-                        </div>
-                    </div><!--Education & Certification 2 end-->
-
-
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>National Taitung Senior High School</h4>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2008-2011</p>
-                        </div>
-                    </div><!--Education & Certification 3 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>National Taitung Senior High School</h4>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2004-2008</p>
-                            <p>2002-2003</p>
-                        </div>
-                    </div><!--Education & Certification 3 end-->
-                    
-                     <div class="row">
-                        <div class="col-md-9">
-                            <h4>National Taitung Senior High School</h4>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2003-2004</p>
-                        </div>
-                    </div><!--Education & Certification 3 end-->
-                    
-                    <hr>
-
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>LICENSE</h4>
-                        </div>
-                    </div><!--Education & Certification 4 end-->
-                    
-                    <hr>
-
-
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>class B skill category of Computer Software Application</h4>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2013</p>
-                        </div>
-                    </div><!--Education & Certification 4 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>class C skill category of Computer Software Application</h4>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2012</p>
-                        </div>
-                    </div><!--Education & Certification 5 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>class C skill category of Web Design</h4>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2012</p>
-                        </div>
-                    </div><!--Education & Certification 6 end-->
-                    
-
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>class C skill category of Accounting Affair - Manual</h4>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2011</p>
-                        </div>
-                    </div><!--Education & Certification 7 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>class C skill category of Accounting Affair - Information</h4>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2011</p>
-                        </div>
-                    </div><!--Education & Certification 3 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>TQC - Chinese key-in</h4>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2010</p>
-                        </div>
-                    </div><!--Education & Certification 3 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>TQC - English key-in</h4>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2010</p>
-                        </div>
-                    </div><!--Education & Certification 3 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>TQC - Word 2003</h4>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2010</p>
-                        </div>
-                    </div><!--Education & Certification 3 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>TQC - PowerPoint 2003</h4>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2010</p>
-                        </div>
-                    </div><!--Education & Certification 3 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>Aboriginal Language Certification - KASAVAKAN Puyuma</h4>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2010</p>
-                        </div>
-                    </div><!--Education & Certification 3 end-->
-                    
-                </div>
-            </div><!--Education & Certifications end-->
-            
-            <hr>
-
-            <!-- ===========================
-            JOB EXPERIENCES
-            ============================ -->
-            <div id="job" class="row mobmid">
-                <div class="col-sm-1">
-                    <span class="secicon fa fa-briefcase"></span>
-                </div><!--icon end-->
-
-                <div class="col-sm-11">
-                    <h3>WORK EXPERIENCE &amp; STAFF EXPERIENCE &amp; PROJECT</h3>
-                    <hr>
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>WORK EXPERIENCE</h4>
-                        </div>
-                    </div><!--Job 1 end-->
-                    <hr>
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>Restaurant</h4>
-                            <p class="sub"><a href="http://www.tceresort.com.tw">TCE RESORT</a>
-                            </p>
-                            <p>HouseKeeper</p>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2012</p>
-                        </div>
-                    </div><!--Job 1 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>SteakHouse</h4>
-                            <p>Waiter</p>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2012</p>
-                        </div>
-                    </div><!--Job 1 end-->
-                    
-                    <hr>
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>STAFF EXPERIENCE</h4>
-                        </div>
-                    </div><!--Job 1 end-->
-                    <hr>
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>Director-General of Student Dormitory Committee</h4>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2015</p>
-                        </div>
-                    </div><!--Job 1 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>Network Leader of Student Dormitory Committee</h4>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2014-2015</p>
-                        </div>
-                    </div><!--Job 1 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>University-Chief of Guidance</h4>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2016</p>
-                        </div>
-                    </div><!--Job 1 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>University-Chief of Learning Affairs</h4>
-                        </div>
-                        <div class="year col-md-3">
-                            <p>2015</p>
-                        </div>
-                    </div><!--Job 1 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>University-Leader of Cleaning</h4>
-                        </div>
-                        <div class="year col-md-3">
-                            <p>2014</p>
-                        </div>
-                    </div><!--Job 1 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>High school-Neat and Cleaning of Scorer</h4>
-                        </div>
-                        <div class="year col-md-3">
-                            <p>2013-2014</p>
-                        </div>
-                    </div><!--Job 1 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>High school-Leader of Cleaning</h4>
-                        </div>
-                        <div class="year col-md-3">
-                            <p>2011-2013</p>
-                        </div>
-                    </div><!--Job 1 end-->
-                    
-                    <hr>
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>PROJECT</h4>
-                        </div>
-                    </div><!--Job 1 end-->
-                    
-                    <hr>
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>Android App</h4>
-                            <p>Develop Android App</p>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2017(undone)</p>
-                        </div>
-                    </div><!--Job 2 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>RWD WebPage</h4>
-                            <p>Make the RWD screen.</p>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2017(undone)</p>
-                        </div>
-                    </div><!--Job 2 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>Analyze stock price movements through emotional analysis</h4>
-                            <p>Developed using Python, through financial news analysis.</p>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2017(undone)</p>
-                        </div>
-                    </div><!--Job 2 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>Personal WebSite</h4>
-                            <p>The website developed on the cloud-based mobile application development course.</p>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2017</p>
-                        </div>
-                    </div><!--Job 2 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>RFID sensor automatic door lock</h4>
-                            <p>Want to live and make it.</p>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2017</p>
-                        </div>
-                    </div><!--Job 2 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>RideSave</h4>
-                            <p>Use PHP, LineBot to develop the system.</p>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2017(undone)</p>
-                        </div>
-                    </div><!--Job 2 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>IOS APP</h4>
-                            <p>Use Swift practice development.</p>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2017(undone)</p>
-                        </div>
-                    </div><!--Job 2 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>Washing machine reservation system</h4>
-                            <p>Use Arduino, Line, LineBot to make washing machine reservation system.</p>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2016</p>
-                        </div>
-                    </div><!--Job 2 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>Restaurant Management System</h4>
-                            <p>Developed with MVC architecture of the hotel management system.</p>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2016</p>
-                        </div>
-                    </div><!--Job 2 end-->
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>LineBot-ChatBot</h4>
-                            <p>Use the simple chat robot made by LineBot。</p>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2016</p>
-                        </div>
-                    </div><!--Job 2 end-->
-                    
-                   <div class="row">
-                        <div class="col-md-9">
-                            <h4>BBS Forum</h4>
-                            <p>Use Java development, can create an account, send articles, open chat rooms, play games and other functions.</p>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2016</p>
-                        </div>
-                    </div><!--Job 2 end--> 
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>Dorm Management System</h4>
-                            <p>Designed and developed in the data model course.</p>
-                        </div>
-
-                        <div class="year col-md-3">
-                            <p>2016</p>
-                        </div>
-                    </div><!--Job 3 end-->
-                    
-                    
-                    <div class="row">
-                        <div class="col-md-9">
-                            <h4>Dorm WebSite</h4>
-                            <p>Served in the hostel committee - network group leader during the management, maintenance, design and editing of the site.</p>
-                        </div>
-                        
-                        <div class="year col-md-3">
-                            <p>2014-2015</p>
-                        </div>
-                    </div><!--Job 4 end-->
-                    
-                </div><!--Job experiences end-->
-            </div><!--Job experiences end-->
-        </div><!--left end-->
-        
-        <!-- ===========================
-        SIDEBAR
-        =========================== -->
-        <div class="col-md-4 mainright">
-            <div class="row">
-                <div class="col-sm-1 col-md-2 mobmid">
-                    <span class="secicon fa fa-file-code-o"></span>
-                </div><!--icon end-->
-
-                <div class="col-sm-11 col-md-10">
-                    <h3 class="mobmid">Code Skill </h3>
-
-                    <p>JAVA</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
-                            <span class="sr-only">65% Complete (success)</span>
-                        </div>
-                    </div><!--skill end-->
-
-
-                    <p>HTML</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-                            <span class="sr-only">85% Complete</span>
-                        </div>
-                    </div><!--skill end-->
-
-                    <p>CSS</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-                            <span class="sr-only">85% Complete</span>
-                        </div>
-                    </div><!--skill end-->
-                    
-                    <p>PHP</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-                            <span class="sr-only">85% Complete</span>
-                        </div>
-                    </div><!--skill end-->
-
-                    <p>JavaScript</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-                            <span class="sr-only">85% Complete</span>
-                        </div>
-                    </div><!--skill end-->
-                    
-                    <p>SQL</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-                            <span class="sr-only">85% Complete</span>
-                        </div>
-                    </div><!--skill end-->
-                    
-                    <p>Arduino</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                            <span class="sr-only">60% Complete (warning)</span>
-                        </div>
-                    </div><!--skill end-->
-                    
-                    <p>Python</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
-                            <span class="sr-only">30% Complete (danger)</span>
-                        </div>
-                    </div><!--skill end-->
-                    
-                    <p>C#</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                            <span class="sr-only">60% Complete (warning)</span>
-                        </div>
-                    </div><!--skill end-->
-                    
-                    <p>ASP.NET</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
-                            <span class="sr-only">30% Complete (danger)</span>
-                        </div>
-                    </div><!--skill end-->
-                    
-                    <p>Swift</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
-                            <span class="sr-only">30% Complete (danger)</span>
-                        </div>
-                    </div><!--skill end-->
-                </div><!--info end-->
-            </div><!--tech skills end-->
-            
-            <hr>
-            
-            
-            <div class="row">
-                <div class="col-sm-1 col-md-2 mobmid">
-                    <span class="secicon fa fa-magic"></span>
-                </div><!--icon end-->
-
-                <div class="col-sm-11 col-md-10">
-                    <h3 class="mobmid">SoftWare </h3>
-
-                    <p>Photoshop</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
-                            <span class="sr-only">65% Complete (success)</span>
-                        </div>
-                    </div><!--skill end-->
-                    
-                    <p>SAP Business One</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
-                            <span class="sr-only">65% Complete (success)</span>
-                        </div>
-                    </div><!--skill end-->
-                    
-                    <p>Wrod</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-                            <span class="sr-only">85% Complete</span>
-                        </div>
-                    </div><!--skill end-->
-                    
-                    <p>Excel</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
-                            <span class="sr-only">65% Complete (success)</span>
-                        </div>
-                    </div><!--skill end-->
-                    
-                    <p>PowerPoint</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-                            <span class="sr-only">85% Complete</span>
-                        </div>
-                    </div><!--skill end-->
-                    
-                    <p>WordPress</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
-                            <span class="sr-only">65% Complete (success)</span>
-                        </div>
-                    </div><!--skill end-->
-                    
-                </div><!--info end-->
-            </div><!--tech skills end-->
-            
-            
-            
-            
-            <hr>
-            
-            
-            
-            <div class="row">
-                <div class="col-sm-1 col-md-2 mobmid">
-                    <span class="secicon fa fa-hdd-o"></span>
-                </div><!--icon end-->
-
-                <div class="col-sm-11 col-md-10">
-                    <h3 class="mobmid">operating system </h3>
-
-                    <p>Windows XP/Vista/7/8/10</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-                            <span class="sr-only">85% Complete</span>
-                        </div>
-                    </div><!--skill end-->
-                    
-                    <p>Linux</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
-                            <span class="sr-only">65% Complete (success)</span>
-                        </div>
-                    </div><!--skill end-->
-                    
-                    <p>Mac OS</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-                            <span class="sr-only">85% Complete</span>
-                        </div>
-                    </div><!--skill end-->
-                    
-                    <p>IOS</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-                            <span class="sr-only">85% Complete</span>
-                        </div>
-                    </div><!--skill end-->
-                    
-                    <p>Android</p>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-                            <span class="sr-only">85% Complete</span>
-                        </div>
-                    </div><!--skill end-->
-                    
-                </div><!--info end-->
-            </div><!--tech skills end-->
-            
-            
-            
-            
-            <hr>
-            
-
-            <div class="row mobmid">
-                <div class="col-sm-1 col-md-2">
-                    <span class="secicon fa fa-trophy"></span>
-                </div><!--icon end-->
-
-                <div class="col-sm-11 col-md-10 ">
-                    <h3>Awards</h3>
-
-                    <div class="award">
-                        <h4>National junior high school students</h4>
-                        <p class="sub"><a href="">Excellent</a></p>
-                    </div>
-                    <!--1st award end-->
-                    
-                    <div class="award">
-                        <h4>Information Month Information Application Contest - Creative Software Design</h4>
-                        <p class="sub"><a href="">Third of Group</a></p>
-                    </div>
-                    <!--1st award end-->
-
-                    <div class="award">
-                        <h4>Information Application Skill Competition Program Design</h4>
-                        <p class="sub"><a href="">Fifth of Excellent</a></p>
-                    </div><!--1st award end-->
-                    
-                    <div class="award">
-                        <h4>Chinese Key-In Competition</h4>
-                        <p class="sub"><a href="">Third of Excellent</a></p>
-                    </div><!--1st award end-->
-                    
-                    <div class="award">
-                        <h4>Information Application Skill Competition Program Design</h4>
-                        <p class="sub"><a href="">Sixth of Excellent &amp; New Record</a></p>
-                    </div><!--1st award end-->
-                    
-                    <div class="award">
-                        <h4>National Music Competition Final</h4>
-                        <p class="sub"><a href="">Second of National South Area</a></p>
-                    </div><!--1st award end-->
-                    
-                    <div class="award">
-                        <h4>National Music Competition Preliminary</h4>
-                        <p class="sub"><a href="">Second of Excellent</a></p>
-                    </div><!--1st award end-->
-                    
-                </div><!--awards end-->
-
-            </div>
-            
-            <hr>
-
-        </div><!--right end-->
-    </div><!--container end-->
-
-    <!-- ===========================
-    FOOTER
-    =========================== -->
-    <footer class="text-center">
-        <p>Last update date 2017/04/19</p>
-    </footer>
-
-    <!--necessary scripts and plugins-->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <script src="js/jquery.nicescroll.min.js"></script>
-    <script src="js/evenfly.js"></script>
 </body>
-
 </html>
+
+<script>
+var url= "http://data.kaohsiung.gov.tw/Opendata/DownLoad.aspx?Type=2&CaseNo1=AV&CaseNo2=1&FileType=1&Lang=C&FolderType=";
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+	if(this.readyState == 4 && this.status == 200){
+		myObj = JSON.parse(this.responseText);
+		var htmlText = "<table border='1'><tr><th>景點名稱</th><th>緯度(Px)</th><th>經度(Py)</th></tr>"
+		for(i=0;i<myObj.length;i++){
+			htmlText +=	"<tr><td>" + myObj[i].Name + "</td><td>" + myObj[1].Px + "</td><td>" + myObj[2].Py + "</td></tr>";
+		}
+		document.getElementById("demo").innerHTML = htmlText + "</table>";
+	}
+};
+xmlhttp.open("GET", url, true);
+xmlhttp.send();
+</script>
